@@ -1,0 +1,1 @@
+INSERT INTO `usuarios`(`nome`, `email`) VALUES ('anahi', 'narielanahi@gmail.com'),('vitoria', 'vityfdo@gmail.com'), ('liliam', 'liliamstefani77@gmail.com'),('amanda','nika.kant2@gmail.com'),('amanda','cplcmscmp@gmail.com');
