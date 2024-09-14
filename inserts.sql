@@ -1,1 +1,1 @@
-INSERT INTO `usuarios`(`nome`, `email`) VALUES ('anahi', 'narielanahi@gmail.com'),('vitoria', 'vityfdo@gmail.com'), ('liliam', 'liliamstefani77@gmail.com'),('amanda','nika.kant2@gmail.com'),('amanda','cplcmscmp@gmail.com');
+INSERT INTO `usuarios`(`nome`, `email`, `senha`) VALUES ('anahi', 'narielanahi@gmail.com','123'),('vitoria', 'vityfdo@gmail.com','123'), ('liliam', 'liliamstefani77@gmail.com','123'),('amanda','nika.kant2@gmail.com','123'),('amanda','cplcmscmp@gmail.com','123'); 

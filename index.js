@@ -4,6 +4,14 @@ const exphbs = require("express-handlebars").engine;
 const bodyParser = require("body-parser");
 const indexRoutes = require("./Routers/Router"); // Importando as rotas
 const path = require('path');
+const session = require('express-session');
+
+app.use(session({
+    secret: 'seuSegredoAqui', // Troque por uma chave secreta adequada
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false } // Para ambiente de desenvolvimento, setar como false
+}));
 
 // Middleware para parsing do corpo da requisição
 app.use(bodyParser.json());

@@ -6,6 +6,9 @@ const cadastro = db.sequelize.define("Usuario", {
     }, 
     email: {
         type: db.Sequelize.TEXT
+    }, 
+    senha: {
+        type: db.Sequelize.TEXT
     }
 })
 
